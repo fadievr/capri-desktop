@@ -1,5 +1,16 @@
 # Capri Room patch notes
 
+## v1.0.2 (2026-11-04)
+
+**Added**
+- Throwing, like the desktop app (Capri 0.8.3). Let go while your hand's moving fast and she flies at your throw's speed:
+  - She tumbles the way you threw her, faster the harder it is, then rights herself before she lands.
+  - She bounces off walls, the ceiling, the sides of furniture and the floor.
+  - A hard throw gets a yell ("WHEEEE!"), and a hard landing leaves her dizzy for a moment.
+  - You can catch her mid-air.
+  - Her grudge: a second throw within two minutes gets a warning, and a third makes her sulk. While she sulks she dodges your hand. Say sorry, pat her head, or leave her alone for five minutes to make up.
+- Motion setting (Y → MOVES): turn it off and she doesn't spin or sway.
+
 ## v1.0.1 (2026-11-03)
 
 **Fixed**

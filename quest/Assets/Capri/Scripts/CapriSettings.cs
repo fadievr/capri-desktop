@@ -141,6 +141,7 @@ namespace CapriRoom
                     Choice(ref row, "Size", CapriConfig.SizeNames, pet.SizeIndex, pet.SetSizeIndex);
                     Choice(ref row, "Bubble", CapriConfig.BubbleNames, CapriConfig.Bubble, v => CapriConfig.Bubble = v);
                     Toggle(ref row, "Glitch in at startup", CapriConfig.GlitchIn, v => CapriConfig.GlitchIn = v);
+                    Toggle(ref row, "Motion (spin when thrown)", CapriConfig.Motion, v => CapriConfig.Motion = v);
                     break;
             }
 
