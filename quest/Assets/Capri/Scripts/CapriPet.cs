@@ -638,7 +638,8 @@ namespace CapriRoom
 
         public void TestVoice()
         {
-            if (!speaker.Ready) { Say("Pick Fish Audio and add its key under VOICE first."); return; }
+            if (CapriConfig.VoiceService != 1 || string.IsNullOrEmpty(CapriConfig.FishKey)) { Say("Pick Fish Audio and add its key under VOICE first."); return; }
+            if (string.IsNullOrEmpty(CapriConfig.FishVoiceId)) { Say("Pick my voice first: paste a fish.audio voice link under VOICE."); return; }
             Talk("Testing, testing. Do I sound preem from over here?");
         }
 

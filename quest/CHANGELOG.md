@@ -11,6 +11,14 @@
   - Her grudge: a second throw within two minutes gets a warning, and a third makes her sulk. While she sulks she dodges your hand. Say sorry, pat her head, or leave her alone for five minutes to make up.
 - Motion setting (Y → MOVES): turn it off and she doesn't spin or sway.
 
+**Fixed (from Lachy's review of the port)**
+- No default voice: she only talks out loud in a Fish Audio voice you picked. With no voice set, she shows her lines in her bubble and asks you to pick one.
+- Clear then Done in the keyboard now really removes a saved key.
+- Her voice reader stops at a broken WAV chunk instead of looping forever.
+
+**Removed**
+- The Unity menu that downloaded and installed the APK from GitHub releases. Capri → Release → 3. Install built APK on headset installs your own build instead.
+
 ## v1.0.1 (2026-11-03)
 
 **Fixed**
